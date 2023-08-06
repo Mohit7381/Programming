@@ -32,4 +32,5 @@ int main(){
     }catch(int t){
         cout<<"Not able to calculate for "<<t<<"Sides"<<endl;
     }
+    
 }
