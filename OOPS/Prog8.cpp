@@ -78,7 +78,7 @@ int main(){
                 cin.ignore();
                 getline(cin,name);
                 cout<<"Enter Age: ";
- cin>>age;
+                 cin>>age;
 
                 sem = 1;
                 fees = 200000;
