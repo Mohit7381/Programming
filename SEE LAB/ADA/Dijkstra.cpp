@@ -33,9 +33,9 @@ void dijkstra(int graph[V][V], int src)
         printSolution(dist);
 }
 
-int main()
-{
-        int graph[V][V]={{0,2,8,0,0,0},{2,0,5,6,0,0},{8,5,0,3,2,0},{0,6,3,0,1,9},{0,0,2,1,0,3},{0,0,0,9,3,0} };
-        dijkstra(graph, 0);
-        return 0;
-}
+        int main()
+        {
+                int graph[V][V]={{0,2,8,0,0,0},{2,0,5,6,0,0},{8,5,0,3,2,0},{0,6,3,0,1,9},{0,0,2,1,0,3},{0,0,0,9,3,0} };
+                dijkstra(graph, 0);
+                return 0;
+        }
